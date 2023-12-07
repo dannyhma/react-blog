@@ -1,8 +1,8 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export default function Home() {
   useEffect(function () {
-    document.title = "Home";
+    document.title = 'Home';
   }, []);
 
   return (

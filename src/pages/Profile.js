@@ -1,8 +1,8 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export default function Profile() {
   useEffect(function () {
-    document.title = "Profile";
+    document.title = 'Profile';
   }, []);
 
   return (

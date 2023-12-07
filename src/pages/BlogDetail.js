@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import NotFound from "./404Page";
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import NotFound from './404Page';
 
 export default function BlogDetail() {
   const params = useParams();
@@ -46,7 +46,7 @@ export default function BlogDetail() {
           <p>{article.summary}</p>
           <p>
             Source:
-            <a href="{article.url}" target="_blank" rel="noreferrer">
+            <a href='{article.url}' target='_blank' rel='noreferrer'>
               {article.newSite}
             </a>
           </p>
