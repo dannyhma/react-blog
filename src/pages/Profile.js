@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 export default function Profile() {
+  useEffect(function () {
+    document.title = "Profile";
+  }, []);
+
   return (
     <>
       <section>

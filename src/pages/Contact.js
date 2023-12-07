@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 export default function Contact() {
+  useEffect(function () {
+    document.title = "Contact";
+  }, []);
+
   return (
     <>
       <section>

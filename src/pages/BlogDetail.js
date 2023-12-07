@@ -10,6 +10,7 @@ export default function BlogDetail() {
 
   useEffect(
     function () {
+      document.title = "Blog Detail";
       async function getArticle() {
         const request = await fetch(
           `https://api.spaceflightnewsapi.net/v3/articles/${params.id}`
