@@ -1,3 +1,10 @@
 export default function Profile() {
-  return <h1>Profile page</h1>;
+  return (
+    <>
+      <section>
+        <h1>Profile</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </section>
+    </>
+  );
 }
