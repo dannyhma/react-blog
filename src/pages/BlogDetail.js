@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import NotFound from "./404Page";
 
 export default function BlogDetail() {
   const params = useParams();
@@ -29,7 +30,7 @@ export default function BlogDetail() {
   );
 
   if (notFound) {
-    return <h1>Artikel tidak ditemukan</h1>;
+    return <NotFound />;
   }
 
   return (
